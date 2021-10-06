@@ -1,0 +1,17 @@
+{
+  "name": "videosilencemodule",
+  "version": "1.0.0",
+  "description": "Module for detecting silence in .mp4 files and trimming the video for silence removal.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Ignacio Mendez",
+  "license": "ISC",
+  "dependencies": {
+    "@ffmpeg-installer/ffmpeg": "^1.1.0",
+    "ffmpeg": "^0.0.4",
+    "fluent-ffmpeg": "^2.1.2"
+  }
+}
